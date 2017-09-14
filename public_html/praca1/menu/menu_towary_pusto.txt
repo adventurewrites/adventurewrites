@@ -1,0 +1,2 @@
+.|Dołącz|towary_edit.php
+.|Wróć...|index.php

@@ -1,0 +1,284 @@
+/* basic elements */
+body {
+	font: 12px/17px tahoma, arial;
+	color: #000;
+/*	background: #DAE8BD url(../img/bg_lines.gif) no-repeat top;  */
+	/*background: #849b67 ;*/
+        /*background: #AF6840;*/
+	background: #ffbc08;
+	margin: auto auto;
+	padding: 0;
+	text-align: center;
+	}
+p {
+	font: 12px/17px tahoma, arial, sans-serif;
+	margin: 0 0 17px 0;
+	}
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+/*	color: #027D87; */
+	color: #014402;
+	}
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #014402;
+	}
+a.c:visited {
+	font-weight: normal;
+	text-decoration: none;
+	color: #858686;
+	}
+a:hover, a:active {
+	text-decoration: underline;
+	color: #000505;
+	}
+ul {
+	list-style-type: none;
+	margin: 0; padding: 0;
+}
+
+
+/* specific divs */
+#container {
+	width: 762px;
+	padding: 0;
+	margin: auto;
+	text-align: left;
+	}
+#intro {
+	vertical-align: bottom;
+/*	border-bottom: 1px solid #014402;*/
+	}
+#pageHeader {
+	padding: 0;
+	margin: 0;
+	height: 230px;
+/*	height: 250px;*/
+/*	border: 1px solid white;*/
+	}
+#pageHeader h1 {
+	background:  url(../img/title_hdr.jpg) no-repeat top left;
+	width: 760px;
+	height: 190px;
+ 	margin: 8px 0 0 0;
+/*	org margin: 70px 0 0 0;*/
+/*	margin: 10px 0 0 0;*/
+	padding: 0;
+}
+#pageHeader h1 span {
+	display:none
+	}
+#pageHeader h2 {
+	padding: 0; margin: 0;
+	}
+#pageHeader h2 span {
+	display: none;
+	}
+#quickSummary p.p1 {
+	width: 320px;
+	height: 92px;
+	position: absolute;
+	top: 1px;
+	margin-left: 470px;
+	padding: 0;
+	font-size: 11px;
+	color: #014402;
+	font-family: arial;
+/*	background:  url(../img/bg_redbox.gif) no-repeat;*/
+	}
+#quickSummary p.p1 span{
+	display: none;
+}
+#quickSummary p.p2{
+	display: block;
+	position: absolute;
+	top: 53px;
+	padding: 0 0 0 7px;
+	font-size: 11px;
+	text-align: right;
+/*	color: #490909;  */
+/*	color: #849b67;*/
+	color: #ffbc08;
+	font-family: arial;
+	clear: both;
+}
+#preamble {
+	padding: 0; margin: -3px 0 0 0;
+	width: 291px;
+	float: left;
+	}
+#preamble h3 {
+/*	background: url(../img/hdr_enlightenment.jpg) no-repeat;*/
+	width: 291px;
+	height: 47px;
+	margin: 0; padding: 0;
+	border-bottom: 1px solid #014402;
+}
+#preamble h3 span {
+	display: none;
+}
+#preamble p {
+	font: italic normal 12px/19px georgia, 'Times New Roman', times, serif;
+	padding: 0 0 0 3px;
+	width: 270px;
+/*	border-bottom: 1px solid #014402;*/
+}
+#preamble p.p1 {
+/*	margin-top: 10px;*/
+}
+#supportingText {
+	padding: 0;
+	margin: -3px 0 40px 0;
+        /*	background: #D6E6B6; */
+	background: #ffbc08;
+	border-left: 1px solid #014402;
+	width: 469px;
+	float: right;
+	}
+
+#supportingText p {
+	margin: 9px 17px 17px 24px;
+	font: 12px/17px tahoma, arial, sans-serif;
+}
+
+#supportingText li {
+	margin: 9px 17px 0px 24px;
+	font: 12px/12px tahoma, arial, sans-serif;
+}
+
+#supportingText p.p1 {
+//	text-align: justify;
+	text-indent: 20px; 	
+}
+
+#supportingText p.p2 {
+	text-align: left;
+}
+
+#supportingText p.p3 {
+	font: bold 15px/17px tahoma, arial, sans-serif;
+	text-align: left;
+}
+
+#supportingText p.p4 {
+	font: bold 19px/21px tahoma, arial, sans-serif;
+	text-align: left;
+}
+
+#podroze h3 {
+	background: url(../img/hdr_podroze2.png) no-repeat;
+        width: 100px;
+	height: 32px;
+        position: relative;
+        left:45%;
+        margin: 0; padding: 0;
+}
+#podroze h3 span {
+	display: none;
+}
+#miejsca_magiczne h3 {
+	background: url(../img/hdr_miejsca_magiczne1.png) no-repeat;
+	width: 469px;
+	height: 32px;
+        position: relative;
+        left:45%;
+	margin: 0; padding: 0;
+}
+#miejsca_magiczne h3 span {
+	display: none;
+}
+#przygoda_i_ryby h3 {
+	background: url(../img/hdr_przygoda_i_ryby1.png) no-repeat;
+	width: 469px;
+	height: 32px;
+        position: relative;
+        left:48%;
+	margin: 0;
+}
+#przygoda_i_ryby h3 span {
+	display: none;
+}
+#samochody h3 {
+	background: url(../img/hdr_samochody1.png) no-repeat;
+	width: 469px;
+	height: 32px;
+        position: relative;
+        left:47%;
+	margin: 0; padding: 0;
+}
+#samochody h3 span {
+	display: none;
+}
+#przyjaciele h3 {
+/*	background: url(../img/hdr_przyjaciele.jpg) no-repeat;*/
+	width: 469px;
+	height: 32px;
+	margin: 0; padding: 0;
+}
+#przyjaciele h3 span {
+	display: none;
+}
+#prace_wlasne h3 {
+/*	background: url(../img/hdr_prace_wlasne.jpg) no-repeat;*/
+	width: 469px;
+	height: 32px;
+	margin: 0; padding: 0;
+}
+#prace_wlasne h3 span {
+	display: none;
+}
+#kontakt h3 {
+/*	background: url(../img/hdr_kontakt.jpg) no-repeat;*/
+	width: 469px;
+	height: 32px;
+	margin: 0; padding: 0;
+}
+#kontakt h3 span {
+	display: none;
+}
+#footer {
+/*	background: #A2C1B9;   */
+	background: #ffbc08;
+	border-top: 1px solid #014402;
+	padding: 0 0 2px 24px;
+	}
+a.c {
+	font-weight: normal;
+}
+#lselect, #larchives, #lresources {
+	width: 256px;
+	clear: left;
+	padding: 0;
+	margin: 0;
+}
+#lselect {
+/*	background: url(../img/hdr_select.gif) no-repeat;*/
+	border-bottom: 1px solid #014402;
+}
+#larchives {
+/*	background: url(../img/hdr_archives.gif) no-repeat;*/
+	border-bottom: 1px solid #014402;
+}
+#lresources {
+/*	background: url(../img/hdr_resources.gif) no-repeat;*/
+	border-bottom: 1px solid #014402;
+}
+#lselect h3 span{
+	display: none;
+}
+#lresources h3 span{
+	display: none;
+}
+#linklist {
+	position: absolute;
+	top: 48em;
+}
+#linkList #linkList2  ul {
+	padding: 20px 10px 10px 10px;
+	display:block;
+}
+#linklist li {
+	margin: 2px 0;
+}

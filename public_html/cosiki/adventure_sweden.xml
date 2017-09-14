@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Adventure po godzinach</title>
+    <link>http://adventure.host22.com</link>
+    <description>Adventure.oz.pl::Przygoda i styl życia</description>
+    <lastBuildDate>Sat, 06 Apr 2013 22:43:55 +0200</lastBuildDate>
+    <item>
+      <title>Deszczowe Örebro</title>
+      <link>http://rafalowapoczta.blogspot.se/2013/04/deszczowe-orebro.html</link>
+      <description>Dużo szerokich ulic, zwarta kolorowa zabudowa, place, dużo zieleni, piękny park i deptak nad rzeką, to wszystko dodawało temu miastu trochę radości mimo pochmurnej pogody.</description>
+      <author>Rafał Sowiak</author>
+      <pubDate>Sat, 06 Apr 2013 22:43:55 +0200</pubDate>
+    </item>
+  </channel>
+</rss>

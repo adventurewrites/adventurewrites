@@ -1,0 +1,4 @@
+.|Pozycje|realzamow_poz.php?nr_zam=id_zad
+.|Odznacz jako niezrealizowane|realzamow_real.php?nr_zam=id_zad
+.|Usuñ|realzamow_del.php?nr_zam=id_zad
+.|Wróæ...|index.php

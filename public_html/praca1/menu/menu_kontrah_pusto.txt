@@ -1,0 +1,2 @@
+.|Dołącz|kontrah_edit.php
+.|Wróć...|index.php

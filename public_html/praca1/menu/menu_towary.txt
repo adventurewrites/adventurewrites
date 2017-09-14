@@ -1,0 +1,4 @@
+.|Dołącz|towary_edit.php
+.|Popraw|towary_edit.php?new=1&ktm=id_zad
+.|Usuń|towary_del.php?ktm=id_zad
+.|Wróć...|index.php

@@ -1,0 +1,150 @@
+/* Styles related to the PHP Layers Menu System begin here */
+
+.phplmnormal	{
+	font-family: Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+
+a.phplm:link	{
+	font-family: Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #004400;
+}
+
+a.phplm:visited	{
+	font-family: Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #726461;
+}
+
+a.phplm:hover	{
+	font-family: Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #841212;
+	background-color: #fff0c0;
+}
+
+a.phplm:active	{
+	font-family: Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #ff0000;
+}
+
+.phplmbodytable	{
+	font-family: Helvetica, sans-serif;
+	font-size: 10pt;
+	background-color: #fffae4;
+}
+
+.ivorybodytable	{
+	font-family: Helvetica, sans-serif;
+	font-size: 10pt;
+	background-color: #fffff8;
+}
+
+.darkbordertable	{
+	background-color: #726461;
+}
+
+.blackbordertable	{
+	background-color: #000000;
+}
+
+.greenbordertable	{
+	background-color: #839983;
+}
+
+.darkgreenbordertable	{
+	background-color: #839983;
+}
+
+.redbordertable	{
+	background-color: darkblue;
+}
+
+.orangebordertable	{
+	background-color: darkblue;
+}
+
+/* Styles related to the PHP Layers Menu System end here */
+
+/* Styles related to the demo page begin here */
+
+
+a:link	{
+	color: #004400;
+}
+
+a:visited	{
+	color: #726461;
+}
+
+a:hover	{
+	color: #841212;
+	background-color: #fff0c0;
+}
+
+a:active	{
+	color: #ff0000;
+}
+
+.h1bar	{
+	font-family: Helvetica, sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	color: #990000;
+}
+
+.topbar	{
+	font-family: Helvetica, sans-serif;
+	font-size: 10pt;
+	background-color: #ffe2b1;
+}
+
+.bar	{
+	font-family: Helvetica, sans-serif;
+	font-size: 10pt;
+	background-color: #c0c0c0;
+}
+
+.preformatted	{
+	font-family: courier;
+	font-size: 10pt;
+}
+
+TR.level1 {
+   background-color  : darkblue;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   color: #fffae4;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+TR.level2 {
+   background-color  : #fffff8;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   color: #000000;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+TR.level3 {
+   background-color  : gray;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   color: #000000;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+TR.level4 {
+   background-color  : #add8e6;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   color: #000000;
+   padding-left: 5px;
+   padding-right: 5px;
+}

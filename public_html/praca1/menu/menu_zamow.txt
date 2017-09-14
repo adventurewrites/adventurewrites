@@ -1,0 +1,4 @@
+.|Pozycje|zamow_poz.php?nr_zam=id_zad
+.|Zrealizuj|zamow_real.php?nr_zam=id_zad
+.|Usuń|zamow_del.php?nr_zam=id_zad
+.|Wróć...|index.php

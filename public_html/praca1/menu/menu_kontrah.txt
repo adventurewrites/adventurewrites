@@ -1,0 +1,5 @@
+.|Dołącz|kontrah_edit.php
+.|Popraw|kontrah_edit.php?new=1&id_kon=id_zad
+.|Usuń|kontrah_del.php?id_kon=id_zad
+.|Wróć...|index.php
+.|Zmień hasło|kontrah_pas.php?id_kon=id_zad

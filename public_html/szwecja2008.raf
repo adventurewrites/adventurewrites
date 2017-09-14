@@ -1,0 +1,156 @@
+<?
+  require("funkcje.php");
+  $tryb_tekstowy=$_GET["tryb_tekstowy"];
+  $english=$_GET["english"];
+  if ($english!=1)
+  {
+    $podroze1 = '<h4>Szwecja 2008</h4>';
+    $podroze1.= 'Szwecja to na pewno dla mnie co¶ nowego. Samolot skraca odleg³o¶æ niesamowicie. Warszawa po¿egna³a mnie chmurami, nad Ba³tykiem by³o takie czyste niebo, ¿e mo¿na by³o obserwowaæ przep³ywaj±ce statki, Szwecja przywita³a mnie ¶niegiem i zimow± aur±. No i tutaj pierwsze spostrze¿enie: ludzie siê tym wcale nie przejmuj±, chodz± bez szalików i czapek...
+<br>Poci±gi s± zupe³nie inne ni¿ w Polsce. I pod wzglêdem szybko¶ciowym i pod wzglêdem jako¶ciowym. Kolej SJ oferuje swoim pasa¿erom wygodne siedzenia i klimatyzacjê zarówno w pierwszej jak i w drugiej klasie oraz dostêp do Internetu - w pierwszej klasie w cenie biletu, w drugiej za op³at±.
+<br>Wra¿enia z jazdy? Na pewno wiêksze by³yby, gdybym jecha³ ze Sztokholmu za ko³o podbiegunowe, a nie do Linköping, ale te¿ by³y niez³e: w wiêkszo¶ci za oknem pojawia³y siê lasy i jeziora. I bardzo, ale to bardzo rzadko miejscowo¶ci. A nale¿y wspomnieæ, ¿e jest to ta bardziej zaludniona czê¶æ Szwecji. Ceny wysokie. Bilet z lotniska Arlanda do Linköping kosztuje 400 SEK (w przeliczeniu na polskie oko³o 150 z³otych).
+<br>Skóry reniferów s± wszêdzie: na lotnisku, w sklepach, dworcach autobusowych. S± piêkne, i chyba sobie jedn± sprawiê. Koszt: 800 koron.
+<br>Linköping ogl±da³em na razie tylko z okna autobusu miejskiego (kierowca pod krawatem, nie odgrodzony od pasa¿erów ¿adnymi wymy¶lnymi kratkami czy innymi blachami, jak to bywa w polskich ¶rodkach transportu miejskiego).
+<br>Nie spotka³em jeszcze Szweda, który nie rozmawia po angielsku.
+<br>Telewizja - wiêkszo¶æ filmów prezentowana jest w jêzyku oryginalnym z napisami szwedzkimi, mo¿na wiêc spokojnie utrwalaæ swój jêzyk angielski lub... uczyæ siê szwedzkiego.
+<br>
+<br><b>Linköping - moje tymczasowe miejsce.</b>
+<!-------------------------------------------------------------------->
+<br>Miasto to jest na polskie warunki prawie miasteczkiem, ale w Szwecji jest pi±tym co do wielko¶ci, a zarazem stolic± hrabstwa i diecezji. Znane jest równie¿ z uniwersytetu i parku naukowego, gdzie siedzibê ma miêdzy innymi Ericsson - jedna z bardziej znanych marek na ¦wiecie.
+<!-------------------------------------------------------------------->
+<br>S³owa "du¿y" i "daleko" nabieraj± tu zupe³nie innego znaczenia. Droga z dzielnicy Lambohov do centrum Linköping zajê³a mi na piechotê oko³o godziny. Poniewa¿ poszed³em w poszukiwaniu jakiegokolwiek dostêpu do Internetu, miasto ogl±dalem jak gdyby "przy okazji".
+<br>
+<br><b>Dotar³em do katedry.</b>
+<br>Nie by³o to zbyt trudne, gdy¿ jej 107-metrowa iglica widoczna jest z ka¿dej czê¶ci centrum miasta. Ko¶ció³ powsta³ w 1232 roku, a swój obecny kszta³t zawdziêcza przebudowie w 1520 roku. Trzeba przyznaæ, ¿e robi wra¿enie zarówno na zewn±trz jak i wewn±trz. Wszystkie elementy tutaj wykonano z miejscowego, rêcznie rze¼bionego wapienia, a w pracach brali udzia³ kamieniarze z ca³ej Europy. Najpó¼niej dodano dodano dzwonnicê i wschodni± fasadê, ukoñczono je w 1885 roku. Dzisiaj budowla zwraca uwagê doskonale utrzymanymi proporcjami i ³±czy ró¿ne style architektoniczne, od romañskiego po gotycki. Na uwagê zas³uguje piêkny po³udniowy portal z rze¼bami o tematyce biblijnej, które wieñcz± drzwi ze zdobieniami o motywach geometrycznych, zdradzaj±cych wp³ywy mauretañskie.
+<br>
+<br>Z katedry przez park Domkyrkoparken dotar³em do biblioteki. Biblioteka, trzeba powiedzieæ, robi wra¿enie. Jest tak du¿a ja ¶redniej wielko¶ci centrum handlowe w polskim du¿ym mie¶cie. Oprócz tego znajduje siê w niej centrum informacji turystycznej i kawiarnia z dostêpem do Internetu.
+
+<!-------------------------------------------------------------------->
+<br><b>Centrum miasta</b> mo¿na powiedzieæ, ¿e zaczyna siê katedr±, a koñczy bia³ym ko¶cio³em pw. ¦w. Larsa. Niedaleko tego ko¶cio³a
+znajduje siê sklep sieci System Bolaget, kto by³ w Szwecji ten wie jak wa¿ne s± to sklepy na tym terenie.
+<br>Id±c dalej w tym kierunku dochodzimy do <b>Kinda Kanal</b> ³±cz±cego jezioro Asunden z jeziorem Roxen, a który mylnie nazywany jest przez
+niektórych turystów Göta Kanal. A Göta Kanal przez Linköping po prostu nie p³ynie. Na Kinda Kanal zbudowano siedem ¶luz, z których
+najwiêksza ma ponad 15 metrów wysoko¶ci. Umozliwiaj± one statkom
+pokonaæ osiemna¶cie metrów ró¿nicy poziomów. Do tej pory uda³o mi siê zobaczyæ dwie z nich: ';
+$podroze1.= foto_line('szwecja2008/20080315_tannefors',3,4,'_s');
+$podroze1.='<br>Tannefors o wysoko¶ci 10,5 metra...';
+$podroze1.= foto_line('szwecja2008/20080315_hackefors',3,4,'_s');
+$podroze1.='<br>...oraz
+Hackefors o wysoko¶ci 6,8 metra. Muszê przyznaæ, ¿e stoj±c na samym skraju niczym niezabezpieczonej ¶liskiej kamiennej ¶ciany ¶luzy,
+nie czu³em siê zbyt pewnie mimo ¿e nigdy nie mia³em lêku wysoko¶ci.<br>Po kanale w sezonie p³ywaj± statki wycieczkowe, widoki s± urocze a przyjemno¶æ z wycieczki niesamowita
+- sprawdzê to sobi¶cie w sezonie - przynajmniej mam tak± nadziejê. Wiêcej zdjêæ z wycieczki do Tannefors i Hackefors znajduje siê
+<a href=http://adventuregals.go.pl/20080315_kindakanal>tutaj</a>.
+<br><br>Aby obejrzeæ ¶luzy na <a href=http://www.gotakanal.se>Kanale Göta</a> trzeba jechac do miejscowo¶ci Berg nad jeziorem Roxen. Kana³ by³ niegdy¶ wa¿nym szlakiem komunikacyjnym. Pocz±wszy od 1832 roku transportowano têdy drewno i ¿elazo pomiêdzy Sztokholmem, a Göteborgiem, a sto lat pó¼niej na trasê wyruszy³y równie¿ statki wycieczkowe. Jad±c z Linköping do <a href=http://www.adventuregals.go.pl/20080216_motala>Motali</a> w pewnym momencie przeje¿d¿a siê pod wiaduktem, który opisany jest w³a¶nie jako "Kana³ Göta".
+No muszê powiedzieæ, ¿e jezeli rzeczywi¶cie tam do góry jest kana³, to szacunek dla szwedzkich konstruktorów... W sumie na kanale, który budowa³o prawie 60 tys. ludzi przez 22 lata znajduje siê 58 ¶luz
+niweluj±cych ró¿nicê poziomów wynosz±c± 92 m.
+
+<br><br>Dni w ¶rodku marca w ¶rodkowej Szwecji s± jeszcze do¶æ krótkie, wiêc nie ma za du¿o czasu na zwiedzanie, szczególnie rowerowe. tym
+bardziej siê cieszê, ¿e wykorzysta³em pogodê i pojecha³em do Berga nad jezioro <b>Roxen</b>, szczególnie, ¿e nastêpnego dnia, gdy to w³a¶nie opisujê,
+sypie ¶nieg i jest mróz. Pogoda zmienna jak to w marcu.
+<br><br>Co mo¿na zobaczyæ w Bergu?';
+$podroze1.= foto_line('szwecja2008/20080316_kloster',3,3,'_s');
+$podroze1.= '<br>Po pierwsze <b>klasztor Vreta</b>, czyli po szwedzku <a href=http://www.vretaklosterforening.se>Vreta Kloster</a>. Niestety oficjalna strona
+nie ma t³umaczenia na bardziej przyjazny turystom jêzyk i b±d¼ co b±d¼ muszê w koñcu bardziej przysi±¶æ do tego barbarzyñskiego jêzyka ;),
+¿eby cokolwiek zrozumieæ. Opisy na tablicach dla zwiedzajacych s±, ca³e szczê¶cie, równie¿ po angielsku, wiêc dowiedzia³em siê miêdzy innymi, ¿e...
+<br><i>...Vreta Kloster by³ najprawdopodobniej zbudowany w 1110 roku i w pierwszej po³owie ¶redniowiecza by³ najbardziej rozpoznawanym ¿eñskim
+klasztorem w kraju. Na pocz±tku XII wieku zosta³a zbudowana krypta (kaplica pogrzebowa) dynastii Stenkil, niezwyk³y architektonicznie okr±g³y
+budynek z freskami. Tak zwana kaplica Magnusa Nilssona zosta³a prawdopodobnie dobudowana w XIII wieku.
+<br>Jego aktywno¶æ zakoñczy³a siê wraz z konfiskacj± przez Koronê w czasie reformacji, a budynki ulega³y stopniowemu zniszczeniu.
+<br>Od 1663 roku w rodzinnej krypcie spoczywa Marshall Robert Douglass, w³a¶ciciel posiad³o¶ci Stjärnorp razem z synami i pó¼niejszymi dziedzicami
+a¿ do dzisiejszego dnia.
+<br>Przez wieki wygl±d i wnêtrze koscio³a zmienia³o siê, ale przeprowadzona w latach 1914-1917 przez Sigurda Curmana, Narodowego Kustosza Zabytków,
+restauracja przywróci³a klasztorowi ¶redniowieczny wygl±d.</i>
+<br>Mam nadziejê, ¿e nie odbieg³em wiele w tym t³umaczeniu od tekstu ¼ród³owego, który, jak i równie¿ inne fotografie z tego klasztoru
+mo¿na znale¼æ w tej <a href=http://www.adventuregals.go.pl/20080316_vretakloster>galerii</a>.
+
+<br><br><b>Metalowe ¶luzy i zwodzone mosty</b> na kanale Göta w Bergu robi± jeszcze wiêksze wra¿enie ni¿ te na Kinda Kanal w Linköping. Szczególnie gdy spojrzy siê na nie
+z samego do³u od strony jeziora. Nie uda³o mi siê jednak zobaczyc ich wszystkich, od g³ównej drogi trzeba jechaæ w lewo, i gdy juz my¶la³em ¿e dojecha³em
+do koñcowej tamy - swoj± drog± te¿ nie najmniejszej, okaza³o siê ¿e kana³ za ni± jest... suchy. Do nastêpnej tamy w zapadaj±cym szybko wczesnowiosennym zmroku nie zdecydowa³em siê juz jechaæ.
+Mo¿e nastêpnym razem.';
+$podroze1.= foto_line('szwecja2008/20080316_berg',3,3,'_s');
+
+$podroze1.= 'Wiêcej zdjêæ w <a href=http://www.adventuregals.go.pl/20080316_gotakanalberg>galerii</a>.
+<br>Samo jezioro jest piêkne. Teraz jest puste i bardzo spokojne, ale w sezonie zapewne têtni ¿yciem, a statki sp³ywaj±ce kana³em do jeziora robi± fururê w¶ród przyjezdnych.';
+$podroze1.= foto_line('szwecja2008/20080316_roxen',3,3,'_s');
+$podroze1.= '<br><br>W centrum Linköping znajduje siê tak¿e skansen staromiejski <a href=http://adventuregals.go.pl/20080224_gamlalinkoping>Gamla Linköping</a>.
+Sk³ada siê on z trzech czê¶ci: zabudowy miejskiej z pocz±tku 20 wieku, rezerwatu przyrody Vallaskogen i czê¶ci zabudowy wiejskiej Valla
+wraz z muzeami, która ci±gnie siê a¿ po budynki uniwersytetu. Ca³y ten krajobraz daje nam poczucie cofniêcia siê w czasie. Budynki
+przemieszczano tutaj z innych czê¶ci miasta. Mo¿na zajrzeæ do banku oraz wys³aæ kartkê na poczcie, i¶æ do karczmy, wej¶æ do sklepu z czekolad±
+no i przede wszystkim kupiæ pami±tki zwi±zane ze Szwecj±. jest to idealne miejsce na spacery. Przynajmniej dla mnie.
+<br><br>W Malmen, siedzibie pierwszej szwedzkiej szko³y lotniczej, aktualnie na obrze¿ach Linköping, utworzono <b>Muzeum Szwedzkich Si³ Lotniczych</b> <a href=http://adventuregals.go.pl/20080223_linkoping>Flygvapenmuseum</a>.
+Tyle z³omu lotniczego zebranego w jednym miejscu jeszcze nie widzia³em. Zwiedzanie tego muzeum by³o dla mnie prawdziw± frajd±, ju¿ nie muszê mówiæ jak± radochê ze zwiedzania maj± dzieciaki.
+<!-------------------------------------------------------------------->
+
+<br><br><b>Semla</b>
+<br>Ostatki w Szwecji wi±¿± siê z jednym przysmakiem: s± to ciastka zwane "semlor". "Semla" jest tradycyjnym ciastkiem w Finlandii, Szwecji, Norwegii i Estonii kojarzonym z Wielkim Postem, a przede
+wszystkim z ostatkami, co¶ takiego jak u nas T³usty Czwartek z p±czkami. Nazwa pochodzi z ³aciñskiego, by³a u¿ywana dla okre¶lenia najlepszej jako¶ci pszennej m±ki. Jest to bu³ka podzielona na dwie czê¶ci, w ¶rodku wype³niona marcepanem z makiem (tak mi siê wydaje) i przedzielona bit± ¶mietan±. Bardzo s³odka - pierwsza smakuje wy¶mienicie, druga ju¿ lekko mdli...';
+$podroze1.= foto_line('szwecja2008/semla',3,1,'_s');
+//<!-------------------------------------------------------------------->
+$podroze1.='<br><br><b>A herbata...</b>
+<br>...waniliowa smakuje fatalnie. To taki przerywnik :)';
+//<!-------------------------------------------------------------------->
+$podroze1.='<br><br><b>Podró¿owanie autobusami miejskimi</b>
+<br>Z pewno¶ci± nowo¶cia dla mnie jest fakt, ze za bilet mo¿na zap³aciæ SMSem i ¿e do autobusu wchodzimy przednimi drzwiami, a wysiadamy ¶rodkowymi i tylnimi. Kierowca w zasadzie zawsze sprawdza bilety. Do tej pory nie wiem, czy istnieje tu instytucja tzw. "kanara".';
+
+$podroze1.='<br><br><b>Podró¿owanie rowerami...</b>
+<br>...jest powszechne. Rowery s± wszêdzie: przy domach, blokach, restauracjach, miejscach pracy, sklepach, po prostu wszêdzie. Jest ich tak wiele przede wszystkim z tego powodu, ¿e jest gdzie nimi je¼dzic.
+Ca³e miasto pokryte jest sieci± ¶cie¿ek rowerowych, o czym w Polsce mo¿emy jak na razie tylko pomarzyæ. Co wiêcej, wiêkszo¶æ rowerów nie jest zamykana, zostawiane s± nawet na przystankach komunikacji miejskiej. Po prostu s±
+czê¶ci± tutejszego systemu transportowego. I jako¶ nikt ich nie kradnie.
+
+
+<br><br><b>Birka Paradise</b>';
+$podroze1.= foto_line('szwecja2008/birka',3,16,'_s');
+
+$podroze1.='<br>22-godzinna podró¿ statkiem <a href=http://www.birka.se>Birka Paradise</a> ze Sztokholmu do Mariehamn jest dla Szwedów (i nie tylko) oderwaniem od codzienno¶ci. Ceny alkoholu w Szwecji s± wysokie wiêc du¿o ludzi decyduje sie na imprezê w strefie, gdzie alkohol jest du¿o tañszy i dyskoteki wliczone s± w ceny biletów. Wycieczki nastawione s± przede wszystkim na zabawê i zakupy w sklepie bezc³owym, przynajmniej zim±, kiedy wiêkszo¶æ czasu podró¿y przypada na noc. Latem pewnie wygl±da to zupe³nie inaczej i imprezy z sal zamkniêtych przenosz± siê na otwarte pok³ady, sk±d rozci±gaj± sie piêkne widoki na szwedzkie i finskie wysepki.
+Niemal¿e na ka¿dej takiej wyspie (niektóre s± wielko¶ci ma³ej polany w lesie) s± jakie¶ zabudowania - czy to sta³e czy letniskowe. Kraina wymarzona dla wêdkarzy i ludzi lubi±cych spokój, w sam raz na weekend za miastem.
+<br>
+Birka Paradise nie jest jedynym statkiem oferuj±cym takie wycieczki - minêli¶my ich po drodze ca³kiem sporo, w zasadzie wszystkie p³yn± podobnym kursem.
+<br>
+By³ to dla mnie tez pierwszy <b>rzut oka na Sztokholm</b>.';
+$podroze1.= foto_line('szwecja2008/stockholm',3,10,'_s');
+$podroze1.='<br>Sztokholm jest ³adnym miastem, zaryzykowa³bym nawet stwierdzenie, ¿e sztokholmska starówka podoba mi siê bardziej ni¿ wiedeñska. Ale oczywi¶cie jest to pojêcie wzglêdne. Na pewno w Wiedniu jest zdecydowanie mniej wody, w zasadzie tylko Dunaj, który do tego jest jeszcze obrócony o 90 stopni w stosunku do swojego ¼rod³owego koryta, bo co¶ im tam nie pasowa³o w zabudowie.
+
+Sztokholmu nie widzia³em za du¿o, wiêc muszê siê tam koniecznie wybraæ jescze raz na zdecydowanie d³u¿sz± ni¿ godzinn± wycieczkê. To co da³o siê zauwa¿yæ, to specyficzny typ zabudowy przy porcie: ska³y przechodz±ce w budynki, które wygl±daj± jakby z tej ska³y wyros³y. Widok niesamowity.
+
+<br>Na starym mie¶cie dominuj± w±skie uliczki. Niektóre s± tak w±skie jak nasze na Starym Mie¶cie w Warszawie, z t± jedn± ró¿nic±, ¿e prowadz± do tego albo w górê albo w dó³, no i oczywi¶cie nie by³y zniszczone podczas wojny, bo tu do Szwecji wojny zagl±da³y rzadko.';
+  }
+  else
+  {
+    $podroze1 = '<h4>Sweden 2008</h4>';
+    $podroze1.='<br>Sweden was something new for me. Plane cuts the way incredibly. Warsaw said goodbye to me by clouds, Baltic Sea was clean that I could to observe sailing ships, Sweden greeted by winter weather and snow. And here is the very first observation: people are not concerned about it, they goes without scarfs and hats...
+<br>Trains in Sweden are completely different than in Poland. Both as regards speed and as regards quality. SJ railway offers for passengers comfortable seats and air conditioning in first as well as in second class and Internet Access - in first class for free, in second - for a nominal fee.
+<br>Any impressions from the journey? Certainly they would be greater, when I would go from Stockholm to Arctic Circle, not to Linköping, but also was not bad: in most cases behind the window appeared forests and lakes. And very, very rarely other places. So it is necessary to mention, that it is this more populated part of Sweden. Prices high. Ticket from Arlanda airport to Linköping costs about 400 SEK (in PLN it is about 150 zl).
+<br>Skins of reindeers are everywhere: On the airport, in shops, bus stops. They are beautiful, and I will probably buy one myself. Cost: about 800 SEK.
+Linköping I watched as yet trough the windows of town bus. What else? I didn\'t meet anybody who doesn\'t speak English.
+<br>Television - most of films are in original language with Swedish subtitles, so you may calmly improve your English or... learn Swedish.
+<br>
+<br><b>Linköping - my temporary place.</b>
+<br>Words "big" and "far" take here completely different meaning. The way from Lambohov region to the center of Linköping took me on foot about one hour. Because I went to search any free Internet access, I watched the town as if "by the way".
+<br><b>I arrived to cathedral.</b>
+<br>It wasn\'t very difficult, due to fact that its 107-meter spire is visible from every part of center of the city. The church was found in 1232, so its present shape owes to conversion in 1520. It should be admitted that makes impression both outside and inside. All the elements here were done from local, hand-sculpted limestone, in works took a part stonemasones from all Europe. Latest were added belfry and eastern facade, they were finished in 1885. Today building draws attention to perfectly well-kept proportions and joins different architectural styles, from Romanesque to Gothic. Deserves for attention beatiful southern portal with sculptures about biblical subject matter, which crowns doors with geometrical motif decorations.
+<br>
+<br>From cathedral across the park Domkyrkoparken I arrived to library. Library, it should be admitted, makes impression. It is so big like medium size trade center in big Polish cities. Besides tourist information center and cafe with free Internet access are inside.
+<br><br><b>Semla</b>
+<br>Shrove Tuesday is associated with one delicacy: they are cakes named "semlor". "Semla" is a traditional pastry in Finland, Sweden, Norway and Estonia, associated with Lent and especially Shrove Tuesday. The name derives from the Latin semilia, which was the name used for the finest quality wheat flour (thanks to Lisa for explanation), somethink like "Fat Thursday" - the last Thursday before Lent in Poland with doughnuts. It is roll splitted into two parts, inside with marzipan with poppysees (I suppose) and with whipped cream. Very sweet - first tastes delicious, second already slightly nauseates.
+';
+$podroze1.= foto_line('szwecja2008/semla',3,1,'_s');
+$podroze1.='<br><br><b>Travelling by city busses</b>
+<br>Surely a novelty for me is fact, that for tickets you can pay by SMS and that into the bus you enter by front door, while you exit by the middle and back one. The driver in principle always checks the tickets. Until now I don\'t know, if there is ticket inspector institution here.
+<br><br><b>Birka paradise</b>';
+$podroze1.= foto_line('szwecja2008/birka',3,16,'_s');
+$podroze1.='<br>22-hour long <a href=http://www.birka.se>Birka Paradise</a> boat trip from Stockholm to Mariehamn is for Swedes (but not only) isolation from everyday life. Prices of alcohol in Sweden are high so a lot of people decide for enterprise in zone, where alkohol is cheaper and discos are included in tickets prices. Trips are expected first ofall party and shopping in duty-free shop, at least in winter, when most of travel time falls on night. In summer probably it looks completely differently and events from closed halls remove to open deck, from where extend beautiful views over Swedish and Finnish islands. Almost on every this island (some of them are the size of small forest clearing) there are some buildings - permanent or summer-resort. Country ideal for anglers and people who like calmness, just right for out of city weekend.
+
+<br>Birka Paradise is not the only boat which offers trips like that - we passed them on the way quite a good, in principle all of them sails by similar route.
+
+For me it was also <b>the first look on Stockholm.</b>';
+$podroze1.= foto_line('szwecja2008/stockholm',3,10,'_s');
+$podroze1.='<br>Stockholm is nice city, I could risk statement, that I like Stockholm\'s old city more than Vienna\'s. But of course it is relative concept. Surely in Vienna there is strongly less water, in principle only the Danube river, which is yet rotated obout 90 degrees in reference to its origin bed, because something was wrong with development or something else.
+
+I haven\'t seen this city to much, so I must go there once again for a longer time than one hour trip. This what have to be noticed is specific type of development in harbour: rocks moving on buildings which look like grown from them.
+
+Amazing view.
+
+<br>In old city predominate narrow streets. Some of them are so narrow like ours on Old City in Warsaw with this one difference, that lead also up and down, and of course they weren\'t destroyed during war, because wars have looked to Sweden rarely...';
+  }
+//  $podroze1.= foto_line('ochodzita2007/karczma',3,9,'_s');
+include 'podr_sma.php';
+?>

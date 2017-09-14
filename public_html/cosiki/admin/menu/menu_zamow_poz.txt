@@ -1,0 +1,2 @@
+.|Usuñ|zamow_poz_del.php?zam_nr=id_zad&poz=pozycja
+.|Wróæ...|zamow_poz_wroc.php?zam_nr=id_zad

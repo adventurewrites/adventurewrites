@@ -1,0 +1,4 @@
+.|Dołącz|grupy_tow_edit.php
+.|Popraw|grupy_tow_edit.php?new=1&id_gr=id_zad
+.|Usuń|grupy_tow_del.php?id_gr=id_zad
+.|Wróć...|index.php

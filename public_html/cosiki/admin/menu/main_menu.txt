@@ -1,0 +1,10 @@
+.|Definicje
+..|Kontrahenci|kontrah.php
+..|Kartoteka towarowa
+...|Grupy towarowe|grupy_tow.php
+...|Towary|towary.php
+.|Zamówienia
+..|Niezrealizowane|zamow.php
+..|Zrealizowane|realzamow.php
+.|Administracja
+..|O systemie...|o_syst.php
