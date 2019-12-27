@@ -1,5 +1,5 @@
 <?php
-  $menu_licznik='Adventurewrites.com 2002-2017';
+  $menu_licznik='Adventurewrites.com 2002-2019';
   $menu1 = '<br><br><p>
               <a href=index.php>Strona główna</a><br>
               <a href="https://www.instagram.com/adventurewrites/">Moje rysunki</a><br>

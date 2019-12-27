@@ -196,7 +196,7 @@ $przygoda1.='<p class="p3">Zalew Fryszerka koło Radomska, 02.05.2006';
 $przygoda1.=foto_line('powroty/foto06/060502_fryszerka',3,4,'_s');
 $przygoda1.='<p class="p3">Dołek koło Wielunia, 30.04.2006';
 $przygoda1.=foto_line('powroty/foto06/060430_dolek',3,5,'_s');
-$poworty1.='<p class="p3">Rzeka Warta, Gidle 23.04.2006';
+$przygoda1.='<p class="p3">Rzeka Warta, Gidle 23.04.2006';
 $przygoda1.=foto_line('powroty/foto06/060423_warta',3,2,'_s');
 $przygoda1.='<p class="p3">Las nad rzeką Wartą, Radomsko 17.04.2006';
 $przygoda1.=foto_line('powroty/foto06/060417_warta',3,3,'_s');
@@ -213,7 +213,7 @@ Początek dnia przywitał nas zimnem i śniegiem, ale nic nie mogło nas powstrz
 <p class="p1">Najpierw prawa strona mostu. niestety brak opadów nadal widoczny. rzeka przeraża bardzo niskim poziomem
 swoich wód, ryby pouciekały w głębsze rejony. Trzeba ich szukać. Trzeba zmienić miejsce.
 <p class="p1">Zmieniamy miejsce na lewą stronę mostu, około dwa kilometry za mostem zjeżdżamy w lewo polną dróżką w stronę rzeki -
-dokładnie w to miejsce gdzie wiosną złapałem pięknego wyrośniętego <a href=index.php?tryb_tekstowy='.$tryb_tekstowy.'&english='.$english.'#klen>klenia</a>...
+dokładnie w to miejsce gdzie wiosną złapałem pięknego wyrośniętego <a href=index.php#klen>klenia</a>...
 Ale woda teraz jest o wiele niższa niż wtedy. Nie ma nawet co moczyć blaszek.
 <p class="p1">Poszliśmy szukać głębszych miejsc w niedalekim zakolu. Głębokość w niektórych miejscach sięgała prawie
 trzech metrów, ale niestety ryb tam nie było. Albo za grosz apetytu nie miały :). Dziwne jest to, że nad rzeką

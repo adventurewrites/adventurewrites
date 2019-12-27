@@ -2,7 +2,7 @@
 include 'funkcje.php';
 include 'conf.php';
 
-$przygoda1.='<p class="p4">Szwedzkie powroty o kiju';
+$przygoda1='<p class="p4">Szwedzkie powroty o kiju';
 $przygoda1.='<p class="p3">Tak myślą szczupaki (Rzeka Stångån)';
 $przygoda1.='<p class="p1">Jadąc do Szwecji po raz pierwszy myślałem, że nałowię szczupaków od groma. Wszyscy tak mówili. Wszyscy dookoła. Znajomi, rodzina, telewizja, wędkarskie gazety, a nawet Internet. Gdyby drzewa nad Pilicą potrafiły gadać, pewnie powiedziałyby to samo: tu szczupaków nie ma, jedź do Szwecji, stamtąd można je wybierać reklamówkami.
 <p class="p1">Teraz mówię inaczej. Mówię, że do szczupaków trzeba dojrzeć. Są zarówno i w Polsce jak i w Szwecji. Są w większości naszych i tamtejszych zbiorników. Tylko trzeba je wytropić.
