@@ -38,6 +38,41 @@ function foto_line($sciezka,$ilwwierszu,$ilosc,$sep)
   return $tabela;
 }
 
+function foto_line_art($sciezka,$ilwwierszu,$ilosc,$sep)
+//$sciezka - sciezka do foto (wzgledna)
+//$ilwwierszu - ilosc zdjec w wierszu
+//$ilosc - ilosc zdjec ogolem
+//$sep - oddzielenie dla malych zdjec: samo s lub _s
+{
+  $tabela='';
+  $tabela.='<table align=center>';
+  $tabela.='<tr>';
+     $il_w_wierszu=0;
+     for ($i=$ilosc;$i>=1;$i--)
+       {
+          $il_w_wierszu++;
+          $tabela.='<td align=center>';
+              $wielkosc=getimagesize("$sciezka".$i.".jpg");
+              $width=$wielkosc[0];
+              $height=$wielkosc[1];
+              $script1="javascript:window.open(\"_zdjecie.php?ktm=$sciezka".$i."\",\"NewObr\",\"width=$width,height=$height\")";
+//              $tabela.='<img onclick='.$script1.' style="cursor:move;" border=0 src="'.$sciezka.$i.$sep.'.jpg">';
+                $tabela.='<a href='.$sciezka.$i.'.jpg rel="lightbox"><img border=0 src="'.$sciezka.$i.$sep.'.jpg"></a>';
+              $tabela.='</td>';
+//zawijanie wiersza
+          if ($il_w_wierszu>$ilwwierszu)
+             {
+               $tabela.='</tr>';
+               $il_w_wierszu=0;
+               $tabela.='<tr>';
+             }
+//-----------------
+       }
+  $tabela.='</tr>';
+  $tabela.='</table>';
+  return $tabela;
+}
+
 
 //podpis pod zdjęcie
 function foto_podpis($sciezka,$ilwwierszu,$ilosc,$sep,$czy_podpis,$podpis1,$podpis2,$podpis3,$podpis4)

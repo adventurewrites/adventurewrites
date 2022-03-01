@@ -19,11 +19,27 @@
 
     $lewy1 = 'Odbiło ci, zbzikowałeś, dostałeś fioła. Ale coś ci powiem w sekrecie. Tylko wariaci są coś warci.<br><p align=right>Lewis Carroll "Alicja w Krainie Czarów"</p>';
 
-	$podroze1 = 'Pociąg z Linköping do stolicy Norwegii jedzie 6 godzin. Wyszedłem z dworca i rozglądałem się w poszukiwaniu widocznej (podobno) z każdego punktu miasta skoczni Holmenkollen. Zamiast skoczni zobaczyłem las wieżowców rodem z Nowego Jorku. I trochę byłem… No nie wiem. Zaskoczony? Rozczarowany? Nie tego się spodziewałem.<br>
-                 <a href=szwecja_2019.php>Czekając na wiosnę - Szwecja 2019</a> - ostatnia aktualizacja 05.03.2019';
+	$podroze1 = 'Jakiś czas temu podczas garażowych dyskusji usłyszałem od jednego ze znajomych, że w okolicy jest gość, który ma u siebie w garażu kilkadziesiąt polskich motocykli. Gościa znalazłem, motocykle obejrzałem. Warto!<br>
+                 <a href=moto_borowno.php>Stajnia polskich jednośladów</a> - ostatnia aktualizacja 10.08.2021';
                  $podroze2 = '<br>';
 
     $podroze2.=  '
+				 <b> Polska</b><br>
+                 <a href=moto_borowno.php>Stajnia polskich jednośladów sierpień 2021</a>,
+                 <a href=okolice_przedborza.php>Okolice Radomska 2020-2021</a>,
+				 <a href=potegaprasy.php>Potęga Prasy 2008-2015</a>,
+				 <a href=jasna_gora.php>Jasna Góra, 2000-2009</a>,
+                 <a href=pomorze2008.php>Pomorze Zachodnie, sierpień 2008</a>,
+                 <a href=ochodzita2007.php>Ochodzita 2007</a>,
+                 <a href=beskidy2006.php>Beskidy 2006</a>,
+                 <a href=oswiecim2006.php>Oświęcim 2006</a>,
+                 <a href=niesulice2006.php>Niesulice 2006</a>,
+                 <a href=kluczbork2006.php>Miejsca z delegacji 2000-2007</a>,
+                 <a href=sulechow2005.php>Sulechów 2005</a>,
+                 <a href=rewal2005.php>Rewal 1998-2005</a>,
+                 <a href=karpacz1993.php>Karpacz 1993</a>
+                 <br>
+				 <br>
                  <b> Szwecja</b><br>
                  <a href=szwecja_2019.php>Czekając na wiosnę 2019</a>,
                  <a href=midsommar2016.php>Femundsmarka i Fulufjället 2016</a>,
@@ -41,18 +57,9 @@
                  <a href=vadstena2008.php>Vadstena, 21 czerwca 2008</a>,
                  <a href=riddarspelen2008.php>Ekenäs Slott 10-11 maj 2008</a>,
                  <a href=szwecja2008.php>Östergotland 2008</a>,
-                 <br><br><b> Polska</b><br>
-                 <a href=jasna_gora.php>Jasna Góra, 2000-2009</a>,
-                 <a href=pomorze2008.php>Pomorze Zachodnie, sierpień 2008</a>,
-                 <a href=ochodzita2007.php>Ochodzita 2007</a>,
-                 <a href=beskidy2006.php>Beskidy 2006</a>,
-                 <a href=oswiecim2006.php>Oświęcim 2006</a>,
-                 <a href=niesulice2006.php>Niesulice 2006</a>,
-                 <a href=kluczbork2006.php>Miejsca z delegacji 2000-2007</a>,
-                 <a href=sulechow2005.php>Sulechów 2005</a>,
-                 <a href=rewal2005.php>Rewal 1998-2005</a>,
-                 <a href=karpacz1993.php>Karpacz 1993</a>
-                 <br><br><b></a> Pozostałe kraje</b><br>
+                 <br>
+				 <br>
+				 <b> Pozostałe kraje</b><br>
                  <a href=lviv2018.php>Pijana wiśnia, czyli Lwów po latach, grudzień 2018</a>,
                  <a href=stuttgart2016.php>Stuttgart wiosenny i gorący, czerwiec 2015</a>,
                  <a href=donauwellen.php>Der "Schwäbische Grand Canyon", czerwiec 2015</a>,
